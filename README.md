@@ -62,12 +62,18 @@ Q-Learning update rule:
 - How to evaluate a learned policy using Monte Carlo simulations instead of just a single test run
 
 ## Visual Results
+## Visual Results
 
-<img src="assets/rewards_vs_episodes.png" width="500">
+### Algorithm Comparison
+<img src="assets/q-vs-pi.png" width="600">
 
-<img src="assets/success_rate.png" width="500">
+### Hyperparameter Tuning
+<img src="assets/exploration_rate_effect.png" width="420">
+<img src="assets/discount_factor_effect.png" width="420">
 
-<img src="assets/q_table_heatmap.png" width="350">
+### Training Dynamics
+<img src="assets/rewards_over_episodes.png" width="480">
+<img src="assets/grid_size_comparison.png" width="600">
 
 
 ## Possible Future Improvements
